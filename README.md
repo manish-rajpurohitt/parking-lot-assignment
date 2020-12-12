@@ -5,29 +5,33 @@
 To Run:
 1. Install NodeJs
 2. node index.js
-```JSONParkingLot {
+
+Data Storing Structure:
+
+```JSON
+
+ParkingLot : {
   numOfLevels: 1,
   numOfRowsInEachLevel: 3,
   numOfSlotsInEachRow: 40,
-  levels: [ Level { totalRows: x, rowSize: y, rows: [Array] } ] }```
-
-Level{
-    rows:[Row,Row]
+  levels: [ Level { totalRows: x, rowSize: y, rows: [Array] } ] 
 }
 
-Row{
-    totalSpots:x,
-    remainingSpots:function,
-    vehiclesOccupied:[
-        vehiche1,vehicle2
-    ],
-    totalVehicles:x
+Level : { 
+    totalRows: 3, 
+    rowSize: 40, 
+    rows: [ [Row], [Row], [Row] ] 
 }
 
-Vehicle{
-        type:x(bus,car,mcycle),
-        numOfSlotsRequired:x,
-        regNo:x,
-        from:x,
-        to:x
+Row : {
+    totalSpots: 40, 
+    remainingSpots: 40,
+    vehiclesOccupied: [] 
+}
+
+Vehicle : {
+    vehicleType: 'CAR',
+    regNum: 'REG-NUMBER06',
+    fromTime: '17:49:14',
+    spotSize: 3 
 }
