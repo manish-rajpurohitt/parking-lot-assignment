@@ -35,4 +35,5 @@ Vehicle : {
     fromTime: 'DEFAULT_TIME_NOW',
     spotSize: 'SLOT_SIZE'
 }
-</br>
+```
+
