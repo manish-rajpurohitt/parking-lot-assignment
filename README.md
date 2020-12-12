@@ -11,27 +11,28 @@ Data Storing Structure:
 ```
 
 ParkingLot : {
-  numOfLevels: 1,
-  numOfRowsInEachLevel: 3,
-  numOfSlotsInEachRow: 40,
-  levels: [ Level { totalRows: x, rowSize: y, rows: [Array] } ] 
+  numOfLevels: x,
+  numOfRowsInEachLevel: x,
+  numOfSlotsInEachRow: x,
+  levels: [ Level, Level ] 
 }
 
 Level : { 
-    totalRows: 3, 
-    rowSize: 40, 
+    totalRows: x, 
+    rowSize: x, 
     rows: [ [Row], [Row], [Row] ] 
 }
 
 Row : {
-    totalSpots: 40, 
-    remainingSpots: 40,
-    vehiclesOccupied: [] 
+    totalSpots: x, 
+    remainingSpots: x,
+    vehiclesOccupied: [ Vehicle, Vehicle ] 
 }
 
 Vehicle : {
-    vehicleType: 'CAR',
-    regNum: 'REG-NUMBER06',
-    fromTime: '17:49:14',
-    spotSize: 3 
+    vehicleType: 'VEHICLE_TYPE',
+    regNum: 'REGISTERED_NUMBER',
+    fromTime: 'DEFAULT_TIME_NOW',
+    spotSize: 'SLOT_SIZE'
 }
+</br>
