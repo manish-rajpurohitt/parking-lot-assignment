@@ -1,13 +1,15 @@
 # parking-lot-assignment
 
-ParkingLot{
-    numOfLevels:x,
-    numOfSpotsInEachLevel:x,
-    parkVehicle():function,
-    leaveVehicle:function(),
-    Level:[Level1,Level2]
-    
-}
+
+
+To Run:
+1. Install NodeJs
+2. node index.js
+```JSONParkingLot {
+  numOfLevels: 1,
+  numOfRowsInEachLevel: 3,
+  numOfSlotsInEachRow: 40,
+  levels: [ Level { totalRows: x, rowSize: y, rows: [Array] } ] }```
 
 Level{
     rows:[Row,Row]
