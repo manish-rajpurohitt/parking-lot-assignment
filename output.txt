@@ -1,0 +1,168 @@
+ubuntu:~/Desktop/ParkingLotAssignment$ node index.js
+--------------------
+Vehicle with REG-NUMBER01 of Type CAR Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 37
+--------------------
+--------------------
+Vehicle with REG-NUMBER02 of Type BUS Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 12
+--------------------
+--------------------
+Vehicle with REG-NUMBER03 of Type CAR Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 9
+--------------------
+--------------------
+Vehicle with REG-NUMBER04 of Type CAR Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 6
+--------------------
+--------------------
+Vehicle with REG-NUMBER05 of Type MOTORCYCLE Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 5
+--------------------
+--------------------
+Vehicle with REG-NUMBER06 of Type CAR Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 2
+--------------------
+--------------------
+Vehicle with REG-NUMBER07 of Type BUS Added to Row 1 in Level 0
+Remaining Slots in Level 0 in Row 1 are 15
+--------------------
+--------------------
+Vehicle with REG-NUMBER08 of Type BUS Added to Row 2 in Level 0
+Remaining Slots in Level 0 in Row 2 are 15
+--------------------
+--------------------
+Vehicle with REG-NUMBER09 of Type CAR Added to Row 1 in Level 0
+Remaining Slots in Level 0 in Row 1 are 12
+--------------------
+--------------------
+Vehicle with REG-NUMBER10 of Type MOTORCYCLE Added to Row 0 in Level 0
+Remaining Slots in Level 0 in Row 0 are 1
+--------------------
+--------------------
+Vehicle with REG-NUMBER11 of Type CAR Added to Row 1 in Level 0
+Remaining Slots in Level 0 in Row 1 are 9
+--------------------
+--------------------
+Vehicle with REG-NUMBER12 of Type CAR Added to Row 1 in Level 0
+Remaining Slots in Level 0 in Row 1 are 6
+--------------------
+Vehicle of Type MOTORCYCLE is located at Level 0, Row 0 
+
+Vehicle with Registered Number RANDOM-REG-NUMBER is not present in the parking lot. 
+
+---------Empty Slot's ---------
+Level 0, Row 0, Remaining Empty Spot's are 1 
+
+Level 0, Row 1, Remaining Empty Spot's are 6 
+
+Level 0, Row 2, Remaining Empty Spot's are 15 
+
+Total Remaining Empty Spot's are: 22 
+
+Vehicle with registered number REG-NUMBER06 is already present! 
+
+No Available Spot for Vehicle with Registered Number REG-NUMBER06 
+
+---------Vehicles in Parking Lot are --------- 
+
+Vehicle in Level 0 in Row 0 Type is CAR with Registered Number REG-NUMBER01 
+
+Vehicle in Level 0 in Row 0 Type is BUS with Registered Number REG-NUMBER02 
+
+Vehicle in Level 0 in Row 0 Type is CAR with Registered Number REG-NUMBER03 
+
+Vehicle in Level 0 in Row 0 Type is CAR with Registered Number REG-NUMBER04 
+
+Vehicle in Level 0 in Row 0 Type is MOTORCYCLE with Registered Number REG-NUMBER05 
+
+Vehicle in Level 0 in Row 0 Type is CAR with Registered Number REG-NUMBER06 
+
+Vehicle in Level 0 in Row 0 Type is MOTORCYCLE with Registered Number REG-NUMBER10 
+
+Vehicle in Level 0 in Row 1 Type is BUS with Registered Number REG-NUMBER07 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER09 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER11 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER12 
+
+Vehicle in Level 0 in Row 2 Type is BUS with Registered Number REG-NUMBER08 
+
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER01 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 4
+--------------------
+--------------------
+Vehicle BUS with Reg Num REG-NUMBER02 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 29
+--------------------
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER03 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 32
+--------------------
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER04 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 35
+--------------------
+--------------------
+Vehicle MOTORCYCLE with Reg Num REG-NUMBER05 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 36
+--------------------
+---------Vehicles in Parking Lot are --------- 
+
+Vehicle in Level 0 in Row 0 Type is CAR with Registered Number REG-NUMBER06 
+
+Vehicle in Level 0 in Row 0 Type is MOTORCYCLE with Registered Number REG-NUMBER10 
+
+Vehicle in Level 0 in Row 1 Type is BUS with Registered Number REG-NUMBER07 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER09 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER11 
+
+Vehicle in Level 0 in Row 1 Type is CAR with Registered Number REG-NUMBER12 
+
+Vehicle in Level 0 in Row 2 Type is BUS with Registered Number REG-NUMBER08 
+
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER06 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 39
+--------------------
+--------------------
+Vehicle BUS with Reg Num REG-NUMBER07 and can Leave from Level 0 in Row 1. Thank You.
+Remaining Slots in Level 0 in Row 1 are 31
+--------------------
+--------------------
+Vehicle BUS with Reg Num REG-NUMBER08 and can Leave from Level 0 in Row 2. Thank You.
+Remaining Slots in Level 0 in Row 2 are 40
+--------------------
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER09 and can Leave from Level 0 in Row 1. Thank You.
+Remaining Slots in Level 0 in Row 1 are 34
+--------------------
+--------------------
+Vehicle MOTORCYCLE with Reg Num REG-NUMBER10 and can Leave from Level 0 in Row 0. Thank You.
+Remaining Slots in Level 0 in Row 0 are 40
+--------------------
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER11 and can Leave from Level 0 in Row 1. Thank You.
+Remaining Slots in Level 0 in Row 1 are 37
+--------------------
+--------------------
+Vehicle CAR with Reg Num REG-NUMBER12 and can Leave from Level 0 in Row 1. Thank You.
+Remaining Slots in Level 0 in Row 1 are 40
+--------------------
+---------Vehicles in Parking Lot are --------- 
+
+---------No Vehicles in Parking Slot!--------- 
+
+---------Empty Slot's ---------
+Level 0, Row 0, Remaining Empty Spot's are 40 
+
+Level 0, Row 1, Remaining Empty Spot's are 40 
+
+Level 0, Row 2, Remaining Empty Spot's are 40 
+
+Total Remaining Empty Spot's are: 120 
