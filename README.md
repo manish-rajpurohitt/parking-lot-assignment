@@ -2,7 +2,7 @@
 
 
 
-To Run:
+Setup:
 1. Install NodeJs
 2. node index.js
 
