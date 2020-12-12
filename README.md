@@ -8,7 +8,7 @@ To Run:
 
 Data Storing Structure:
 
-```JSON
+```
 
 ParkingLot : {
   numOfLevels: 1,
