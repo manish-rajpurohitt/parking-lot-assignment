@@ -37,3 +37,20 @@ Vehicle : {
 }
 ```
 
+How to use:
+
+1. import ParkingLot and Vehicle.
+``` 
+const parkingLotModule = require('./ParkingLot')
+const ParkingLot = parkingLotModule.parkingLot;
+const Vehicle = parkingLotModule.vehicle;
+```
+2. Create a Parking Lot with relevant levels, number of rows in each level and number of slots in each row.
+``` 
+let parkingLot = new ParkingLot(numOfLevels,numOfRowsInEachLevel,numOfSlotsInEachRow);
+parkingLot.createParkingLot();
+```
+3. Store Vehicle's in Parking Lot with Registered Number and Type of Vehicle.
+```
+let vehicleObj = new Vehicle(typeOfVehicle,registeredNumber); // Vehicle("CAR","REG-NUM-01");
+```
