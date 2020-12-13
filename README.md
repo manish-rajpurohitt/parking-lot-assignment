@@ -50,7 +50,27 @@ const Vehicle = parkingLotModule.vehicle;
 let parkingLot = new ParkingLot(numOfLevels,numOfRowsInEachLevel,numOfSlotsInEachRow);
 parkingLot.createParkingLot();
 ```
-3. Store Vehicle's in Parking Lot with Registered Number and Type of Vehicle.
+3. Create Vehicle's with Registered Number and Type of Vehicle.
 ```
 let vehicleObj = new Vehicle(typeOfVehicle,registeredNumber); // Vehicle("CAR","REG-NUM-01");
+```
+4. Store Vehicle's in Parking Lot.
+```
+parkingLot.parkVehicle(vehicleObj);
+```
+5. Get number of vehicle's in Parking Lot.
+```
+parkingLot.status();
+```
+6. Get empty spots of Parking Lot.
+```
+parkingLot.getEmptySpots();
+```
+7. Get Location of Vehicle with Registered Number.
+```
+parkingLot.getVehicleLocation("REG-NUM-01");
+```
+8. Leave or Exit Vehicle from Parking Lot with Registered Number.
+```
+parkingLot.leave("REG-NUM-01");
 ```
