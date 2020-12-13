@@ -39,7 +39,7 @@ Vehicle : {
 
 How to use:
 
-1. import ParkingLot and Vehicle.
+1. Import ParkingLot and Vehicle.
 ``` 
 const parkingLotModule = require('./ParkingLot')
 const ParkingLot = parkingLotModule.parkingLot;
