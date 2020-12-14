@@ -10,6 +10,7 @@ Data Storing Structure:
 
 ```
 
+
 ParkingLot : {
   numOfLevels: x,
   numOfRowsInEachLevel: x,
@@ -35,6 +36,13 @@ Vehicle : {
     fromTime: 'DEFAULT_TIME_NOW',
     spotSize: 'SLOT_SIZE'
 }
+
+Slot Size : { 
+  MOTOR_CYCLE : 1,
+  CAR : [3 , 5],
+  BUS : 25
+}
+  
 ```
 
 How to use:
